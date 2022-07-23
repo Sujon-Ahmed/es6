@@ -31,3 +31,23 @@ const arr = [1, 2, 3, 4, [5, 6, 7], 8, 9, 10];
 var [,,,,[,a,b]] = arr;
 
 // console.log(a,b);
+
+// exchange value
+
+var a = 5;
+var b = 6;
+
+// 🔰 exchange the value a = 6, b = 5
+
+// the old way 
+// var temp = a;
+// a = b;
+// b = temp;
+
+// console.log(a, b);
+
+// new way 
+
+[b, a] = [a, b];
+
+console.log(a, b);
