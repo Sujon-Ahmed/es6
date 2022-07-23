@@ -23,4 +23,11 @@ const { name: title } = user; // you can assign any name alias
 
 const {education : {degree} = {}} = user; // jodi education property nah tahkee then error asbee tar jonno = {} deuya hoycee
 
-console.log(degree);
+// console.log(degree);
+
+// array destructuring
+const arr = [1, 2, 3, 4, [5, 6, 7], 8, 9, 10];
+
+var [,,,,[,a,b]] = arr;
+
+// console.log(a,b);
