@@ -13,4 +13,4 @@ let entries = Object.entries(myObj);    // return object key:values pair entries
 
 // console.log(keys); 
 // console.log(values);
-console.log(entries);
+console.table(entries);
