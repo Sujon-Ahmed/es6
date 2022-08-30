@@ -16,7 +16,7 @@ var programmingLanguage = {
     name: 'JavaScript',
     libraries: ['React', 'Angular', 'Vue'],
     printLibraries: function () {
-        this.libraries.forEach((a) => console.log(`${this.name} loves ${a}`)); 
+        this.libraries.forEach((librayName) => console.log(`${this.name} loves ${librayName}`)); 
     }
 }
 programmingLanguage.printLibraries();

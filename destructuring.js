@@ -16,9 +16,10 @@ const user = {
 
 // destructuring way
 
-const { name: title } = user; // you can assign any name alias
+//const { name } = user;
+//const { name: title } = user; // you can assign any name alias
 
-// console.log(name);
+console.log(name);
 // console.log(title);
 
 const { education: { degree } = {} } = user; // jodi education property nah tahkee then error asbee tar jonno = {} deuya hoycee
@@ -50,4 +51,4 @@ var b = 6;
 
 [b, a] = [a, b];
 
-console.log(a, b);
+// console.log(a, b);
